@@ -1,0 +1,216 @@
+/* --------------
+  Header Css
+*/
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.mini_header {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #506a85;
+    background: #f5f7fa;
+    border-bottom: 1px solid #e6e9ed;
+}
+
+.header_contact span:first-child {
+    margin-right: 20px;
+
+}
+
+.social_icon {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    display: block;
+    width: 100%;
+
+}
+
+.social_icon li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social_icon li:last-child {
+    margin-right: 0;
+
+}
+
+.social_icon li a {
+    font-size: 14px;
+    color: #506a85;
+}
+
+.social_icon li a:hover,
+.social_icon li a:active,
+.social_icon li a:visited {
+    color: #3c5570;
+}
+
+.main_header {
+
+    height: 100px;
+    border-bottom: 1px solid #ede6e6;
+    padding: 27px 0;
+}
+
+.manu {
+
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+}
+
+.manu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.manu li:first-child {
+    margin: 0;
+}
+
+.manu li:last-child {
+    float: right;
+}
+
+.manu li a {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #506a85;
+    line-height: 27px 0;
+}
+
+.manu li a:hover,
+.manu li a:visited {
+    color: #3c5570;
+}
+
+/* --------------
+  section Css
+*/
+.feature_area {
+
+    height: 570px;
+    background: url(../images/main_header.png) no-repeat #617995;
+    background-size: cover;
+
+}
+
+.feature_area_content {
+    width: 960px;
+    max-width: 100%;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 170px;
+
+
+}
+
+.feature_area_content h1 {
+    width: 100%;
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.feature_area_content p {
+    font-size: 24px;
+    color: #a3b1bf;
+}
+
+.feature_area_btn {
+    background-color: #00bc9c;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-bottom: 1 px solid #00a085;
+    padding: 25px 65px;
+}
+
+.feature_area_row {
+    margin-bottom: 60px;
+}
+
+.feature_area_btn:hover {
+    background-color: rgb(251, 255, 0);
+    color: #080808;
+
+
+}
+
+/* Serives */
+.services {
+    padding: 120px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.services_head-container {
+    width: 620px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.services_head h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #506a85;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.services_head p {
+    font-size: 17px;
+    color: #73879c;
+}
+
+.services_content {
+    margin-top: 60px;
+}
+
+.service_icon {
+    color: #00bc9c;
+    font-size: 50px;
+}
+
+.service-text h3 {
+    font-size: 26px;
+    color: #506a85;
+    text-align: left;
+}
+
+.service-text p {
+    font-size: 16px;
+    color: #73879c;
+    text-align: left;
+}
+
+.service-col .service_icon,
+.service-col .service-text {
+    float: left;
+
+}
+
+.service-col .service_icon {
+    width: 80px;
+    text-align: left;
+}
+
+.service-col .service-text {
+    width: calc(100% - 80px);
+}
